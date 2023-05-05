@@ -1,0 +1,55 @@
+@font-face {
+    font-family:RubikDirt-Regular ;
+    src: url(mis_font-family/Rubik_Dirt/RubikDirt-Regular.ttf);
+
+}
+@font-face {
+    font-family:AlumniSansCollegiateOne-Regular ;
+    src: url(mis_font-family/Alumni_Sans_Collegiate_One/AlumniSansCollegiateOne-Regular.ttf);
+}
+
+h2{background: green;
+    font-family:RubikDirt-Regular  ;
+    text-align: center;
+    color:blue;
+    } 
+#CONTACTO form{
+        border: 15px solid blue;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding: 100px; }
+input[type="text"]{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 300px;}
+ input[type="email"]{
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 300px;}
+ input[type="nomber"]{
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 300px;}
+ input[type="submit"]{
+    background: green;
+    color: brown;
+    padding: 10px;
+    width: 500px;
+    font-size: red ;
+    cursor: pointer;}
+ .letras{  font:oblique bold 120% cursive ;
+color:green}
+footer{font:oblique bold 120% cursive ;
+    color:blue;
+    background:green;
+    padding: 30px;}
+a{
+    color:blue;
+    font:oblique bold 120% cursive ;}
+ #bodycolor{ background-color: gold;}
+ #demo{
+    font-family:RubikDirt-Regular  ;
+    color: red;
+
+ }
+ 

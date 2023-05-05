@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO.</title>
+    <link rel="icon" type="image/png" href="img.ejercicios/image2.png">
+    <link rel="stylesheet" type="text/css" href="stylecontacto.css" />
+</head>
+
+<body id="bodycolor">
+    <header>
+        <section>
+            <img src="img.ejercicios/Flag_of_Jamaica.svg.png">
+            <img src="img.ejercicios/Flag_of_Jamaica.svg.png">
+            <img src="img.ejercicios/mqdefault.jpg">
+            <img src="img.ejercicios/Flag_of_Jamaica.svg.png">
+            <img src="img.ejercicios/Flag_of_Jamaica.svg.png">
+            <audio
+                src="MP3.ejercicios/X2Download.com - Bob Marley & The Wailers - Could You Be Loved (Official Music Video) (128 kbps) (1).mp3"
+                controls>no es compatible
+
+            </audio>
+
+
+
+        </section>
+        <main>
+
+            <section id="CONTACTO">
+                <h2>CONTACTO</h2>
+                <form>
+                    <div class="letras">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" />
+                    </div>
+                    <div class="letras">
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" id="Apellidos">
+                    </div>
+                    <div class="letras">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="letras">
+                        <label for="number">Edad</label>
+                        <input type="nomber" id="Edad">
+                    </div>
+                    <div class="letras">
+                        <label for="genero">Genero</label>
+                        <select id="genero">
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer">Mujer</option>
+                        </select>
+                    </div>
+                    <div class="letras">
+                        <label for="motivo">Motivo</label>
+                        <textarea id="motivo"></textarea>
+
+                    </div class="letras">
+                    <input type="submit" value="ENVIAR">
+                </form>
+
+
+            </section>
+            <section id=click>
+                <img src="img.ejercicios/Flag_of_Jamaica.svg.png">
+                <img src="img.ejercicios/Flag_of_Jamaica.svg.png">
+                <img id="esoes"  src="img.ejercicios/jamaicajpg.jpg" >
+                <img src="img.ejercicios/Flag_of_Jamaica.svg.png">
+                <img src="img.ejercicios/Flag_of_Jamaica.svg.png">
+            </section>
+        </main>
+        <div class="button">
+            <button class="btn btn-warning"
+                    onclick=before();>
+                Before
+            </button>
+            <button  class="btn btn-success"
+                     onclick=afterr();>
+                Afterr
+            </button>
+         </div>
+         <script>
+            function before(){
+                document.getElementById('esoes')
+                .src="img.ejercicios/jamaicajpg.jpg"
+                
+            }
+             
+            function afterr(){
+                document.getElementById('esoes')
+                .src="img.ejercicios/mqdefault.jpg";
+           
+            }
+        </script>
+    </header>
+    <footer> Proyecto de HTML con ejercicios de Victor Robles Web &copy;2022</footer> <a href="#top">Ir Arriba</a><br>
+    <p id="demo"></p>
+    <hr>
+    <
+
+
+</body>
+
+</html>
